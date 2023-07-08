@@ -1,0 +1,57 @@
+### Xcode ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData
+*.ipa
+*.dSYM.zip
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+default.profraw
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.DS_Store
+
+## npm
+node_modules/
+package-lock.json
+
+## RubyGems
+.bundle
+
+## fastlane
+fastlane/README.md
+fastlane/report.xml
+fastlane/test_output
+fastlane/screenshots
+Preview.html
+
+## CircleCI
+/vendor/bundle
+
+## Carthage
+Carthage/Build
+Carthage/Checkouts
+Carthage/Cartfile.resolved
+
+## Pods
+Pods/
+
+# SwiftFormat
+BuildTools/.build
+BuildTools/.swiftpm
