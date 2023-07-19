@@ -7,24 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A3A6DC02A59D849006A3014 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A3A6DB72A59D849006A3014 /* Settings.bundle */; };
-		2A3A6DC12A59D849006A3014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3A6DB82A59D849006A3014 /* Assets.xcassets */; };
-		2A3A6DC22A59D849006A3014 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3A6DBA2A59D849006A3014 /* Preview Assets.xcassets */; };
-		2A3A6DC32A59D849006A3014 /* UILibrariesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3A6DBC2A59D849006A3014 /* UILibrariesApp.swift */; };
-		2A3A6DC42A59D849006A3014 /* WindowGroupID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3A6DBD2A59D849006A3014 /* WindowGroupID.swift */; };
-		2A3A6DC52A59D849006A3014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3A6DBE2A59D849006A3014 /* AppDelegate.swift */; };
-		2A3A6DC62A59D849006A3014 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3A6DBF2A59D849006A3014 /* RootView.swift */; };
+		2ADF489F2A677F5200322694 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2ADF489D2A677F5200322694 /* Settings.bundle */; };
+		2ADF48A02A677F5200322694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADF489E2A677F5200322694 /* Assets.xcassets */; };
+		2ADF48A22A677FCD00322694 /* UILibrariesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF48A12A677FCD00322694 /* UILibrariesApp.swift */; };
+		2ADF48A52A6781B300322694 /* AppCoreModule in Frameworks */ = {isa = PBXBuildFile; productRef = 2ADF48A42A6781B300322694 /* AppCoreModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A2F616D2A4F28EB0058CD17 /* UILibraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UILibraries.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A3A6DB72A59D849006A3014 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
-		2A3A6DB82A59D849006A3014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2A3A6DBA2A59D849006A3014 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2A3A6DBC2A59D849006A3014 /* UILibrariesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILibrariesApp.swift; sourceTree = "<group>"; };
-		2A3A6DBD2A59D849006A3014 /* WindowGroupID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowGroupID.swift; sourceTree = "<group>"; };
-		2A3A6DBE2A59D849006A3014 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A3A6DBF2A59D849006A3014 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		2ADF489D2A677F5200322694 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		2ADF489E2A677F5200322694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ADF48A12A677FCD00322694 /* UILibrariesApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILibrariesApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADF48A52A6781B300322694 /* AppCoreModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +37,7 @@
 			children = (
 				2A3A6DB52A59D7E8006A3014 /* UILibraries */,
 				2A2F616E2A4F28EB0058CD17 /* Products */,
+				2ADF48A32A6781B300322694 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,39 +52,34 @@
 		2A3A6DB52A59D7E8006A3014 /* UILibraries */ = {
 			isa = PBXGroup;
 			children = (
-				2A3A6DB62A59D849006A3014 /* Resources */,
 				2A3A6DBB2A59D849006A3014 /* Sources */,
+				2ADF489C2A677F5200322694 /* Resources */,
 			);
 			path = UILibraries;
-			sourceTree = "<group>";
-		};
-		2A3A6DB62A59D849006A3014 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				2A3A6DB72A59D849006A3014 /* Settings.bundle */,
-				2A3A6DB82A59D849006A3014 /* Assets.xcassets */,
-				2A3A6DB92A59D849006A3014 /* Preview Content */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		2A3A6DB92A59D849006A3014 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				2A3A6DBA2A59D849006A3014 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		2A3A6DBB2A59D849006A3014 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				2A3A6DBE2A59D849006A3014 /* AppDelegate.swift */,
-				2A3A6DBF2A59D849006A3014 /* RootView.swift */,
-				2A3A6DBC2A59D849006A3014 /* UILibrariesApp.swift */,
-				2A3A6DBD2A59D849006A3014 /* WindowGroupID.swift */,
+				2ADF48A12A677FCD00322694 /* UILibrariesApp.swift */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		2ADF489C2A677F5200322694 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2ADF489D2A677F5200322694 /* Settings.bundle */,
+				2ADF489E2A677F5200322694 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2ADF48A32A6781B300322694 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +118,9 @@
 			dependencies = (
 			);
 			name = UILibraries;
+			packageProductDependencies = (
+				2ADF48A42A6781B300322694 /* AppCoreModule */,
+			);
 			productName = UILibraries;
 			productReference = 2A2F616D2A4F28EB0058CD17 /* UILibraries.app */;
 			productType = "com.apple.product-type.application";
@@ -144,6 +137,7 @@
 				TargetAttributes = {
 					2A2F616C2A4F28EB0058CD17 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 					2A3A6DAC2A59CAB9006A3014 = {
 						CreatedOnToolsVersion = 15.0;
@@ -174,9 +168,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3A6DC12A59D849006A3014 /* Assets.xcassets in Resources */,
-				2A3A6DC22A59D849006A3014 /* Preview Assets.xcassets in Resources */,
-				2A3A6DC02A59D849006A3014 /* Settings.bundle in Resources */,
+				2ADF48A02A677F5200322694 /* Assets.xcassets in Resources */,
+				2ADF489F2A677F5200322694 /* Settings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A3A6DC52A59D849006A3014 /* AppDelegate.swift in Sources */,
-				2A3A6DC42A59D849006A3014 /* WindowGroupID.swift in Sources */,
-				2A3A6DC62A59D849006A3014 /* RootView.swift in Sources */,
-				2A3A6DC32A59D849006A3014 /* UILibrariesApp.swift in Sources */,
+				2ADF48A22A677FCD00322694 /* UILibrariesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,9 +371,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"${PRODUCT_NAME}/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
@@ -405,6 +395,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -415,9 +406,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"${PRODUCT_NAME}/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
@@ -500,6 +491,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2ADF48A42A6781B300322694 /* AppCoreModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppCoreModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2A2F61652A4F28EB0058CD17 /* Project object */;
 }

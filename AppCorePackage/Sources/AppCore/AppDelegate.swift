@@ -16,8 +16,8 @@ final class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     ) {}
 }
 
-final class AppDelegate: NSObject, UIApplicationDelegate {
-    func application(
+public final class AppDelegate: NSObject, UIApplicationDelegate {
+    public func application(
         _: UIApplication,
         configurationForConnecting connectingSceneSession: UISceneSession,
         options _: UIScene.ConnectionOptions
