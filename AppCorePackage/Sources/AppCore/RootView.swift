@@ -5,7 +5,7 @@
 import SwiftUI
 
 enum UIListItem: String, Hashable, Identifiable, CaseIterable {
-    case textField, colorPicker
+    case textField, colorPicker, openWindow
 
     var id: Self { self }
 }
@@ -32,6 +32,23 @@ struct ColorPickerView: View {
     }
 }
 
+struct OpenWindowButton: View {
+    @Environment(\.openWindow)
+    private var openWindow
+
+    var body: some View {
+        if UIApplication.shared.supportsMultipleScenes {
+            Button("Open window") {
+                openWindow(id: WindowGroupID.contents.id)
+            }
+        } else {
+            Button("can not open window") {
+                print("tapped")
+            }
+        }
+    }
+}
+
 struct RootView: View {
     let features: [UIListItem] = UIListItem.allCases
     @State private var selection: UIListItem?
@@ -47,6 +64,8 @@ struct RootView: View {
                 TextFieldView()
             case .colorPicker:
                 ColorPickerView()
+            case .openWindow:
+                OpenWindowButton()
             case nil:
                 Text("select")
             }
